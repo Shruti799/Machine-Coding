@@ -245,6 +245,7 @@ class Game{
 
                if(!board.valid(start_pos,end_pos,turn)){
                 cout<<"Invalid Move"<<endl;
+                turn = true;
                 continue;
                }
 
