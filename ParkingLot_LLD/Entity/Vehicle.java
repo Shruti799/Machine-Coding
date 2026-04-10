@@ -10,11 +10,11 @@ public class Vehicle {
         this.vehicleNumber = vehicleNumber;
     }
 
-    public String getVehicleNumber{
+    public String getVehicleNumber(){
         return vehicleNumber;
     }
 
-    public VehicleType getVehicleType{
+    public VehicleType getVehicleType(){
         return vehicleType;
     }
 }
