@@ -4,6 +4,10 @@ public class ParkingSpot {
     private final String spotId;
     private boolean isFree = true;
 
+    public ParkingSpot(String spotId){
+        this.spotId = spotId;
+    }
+
     public void OccupySpot(){
         isFree = false;
     }
