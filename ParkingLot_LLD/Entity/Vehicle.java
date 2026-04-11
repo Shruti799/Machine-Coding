@@ -1,5 +1,5 @@
 package ParkingLot_LLD.Entity;
-import ParkingLot_LLD.Enums.VehicleType;
+import ParkingLot_LLD.enums.VehicleType;
 
 public class Vehicle {
     String vehicleNumber;

@@ -2,6 +2,7 @@ package ParkingLot_LLD.parkinglot;
 
 import ParkingLot_LLD.Entity.Vehicle;
 import ParkingLot_LLD.Entity.ParkingSpot;
+import ParkingLot_LLD.Ticket;
 import java.util.List;
 
 public class ParkingBuilding {
@@ -24,8 +25,8 @@ public class ParkingBuilding {
         }
     }
     
-    public deallocateTicket(Vehicle vehicle){
-        
+    public void release(Ticket ticket){
+        ticket.getParkingLevel().unPark(ticket.getVehicle().getVehicleType(), ticket.getParkingSpot());
     }
 
 }
