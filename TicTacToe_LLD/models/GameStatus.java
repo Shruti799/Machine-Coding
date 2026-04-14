@@ -1,5 +1,6 @@
 package TicTacToe_LLD.models;
 
-public class GameStatus {
-    
+public enum GameStatus {
+    DRAW,
+    WIN,
 }
