@@ -14,11 +14,11 @@ public class Floor {
     }
 
     public void pressUpButton(){
-        upButton.pressButton(ElevatorDirection.UP);
+        upButton.pressButton(floorNumber, ElevatorDirection.UP);
     }
 
     public void pressDownButton(){
-        downButton.pressButton(ElevatorDirection.DOWN);
+        downButton.pressButton(floorNumber, ElevatorDirection.DOWN);
     }
 
     public int getFloorNumber(){
