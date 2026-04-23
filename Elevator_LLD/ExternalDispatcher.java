@@ -11,6 +11,6 @@ public class ExternalDispatcher {
 
     public void submitExternalRequest(int currentFloor, ElevatorDirection direction){
         ElevatorController controller = scheduler.findElevatorController(currentFloor,direction);
-        controller.moveElevatorCar(currentFloor);
+        controller.submitRequest(currentFloor);
     }
 }

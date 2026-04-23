@@ -11,6 +11,6 @@ public class InternalDispatcher {
     }
 
     public void submitInternalRequest(int destinationFloor, ElevatorController controller){
-        controller.moveElevatorCar(destinationFloor);
+        controller.submitRequest(destinationFloor);
     }
 }
