@@ -10,7 +10,7 @@ public class ExternalButton {
         this.dispatcher = dispatcher;
     }
 
-    public void pressButton(int floor, ElevatorDirection direction){
-        dispatcher.submitExternalRequest(floor,direction);
+    public void pressButton(int currentFloor, ElevatorDirection direction){
+        dispatcher.submitExternalRequest(currentFloor,direction);
     }
 }

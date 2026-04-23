@@ -13,8 +13,8 @@ public class ElevatorScheduler {
         this.strategy = strategy;
     }
 
-    public ElevatorController findElevatorController(int floor, ElevatorDirection direction){
-        return strategy.selectElevator(controllers, floor, direction);
+    public ElevatorController findElevatorController(int currentFloor, ElevatorDirection direction){
+        return strategy.selectElevator(controllers, currentFloor, direction);
     }
 
 }
